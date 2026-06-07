@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+
+body{
+    padding:20px;
+    font-family:"Sono", sans-serif ;
+}
+.align
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:30px;
+    align-items: center;
+}
+.experience 
+{
+    width:90%;
+    max-width:1100px;
+    padding:clamp(20px,3vw,50px);
+    border-radius:16px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    background-color:lightpink;
+    color:black;
+    
+}
+.experience  h2{
+    font-size:clamp(1.4rem,3vw,2.5rem);
+    margin-bottom: 1.4rem;
+    text-align: center;
+}
+.experience  h3
+{
+    font-size:clamp(1.2rem,3vw,2.2rem);
+    
+}
+.experience h4{
+    font-size:clamp(0.8rem,3vw,1.8rem);
+}
+.experience p,.experience ul,.experience li{
+    font-size:clamp(1rem,2vw,1.4rem);
+    line-height:1.7;
+}
+.projects 
+{
+    width:90%;
+    max-width:1100px;
+    padding:clamp(20px,3vw,50px);
+    border-radius:16px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    background-color:lightpink;
+    color:black;
+    
+}
+.projects h2{
+    font-size:clamp(1.4rem,3vw,2.5rem);
+    margin-bottom: 1.4rem;
+    text-align: center;
+}
+.projects h3
+{
+    font-size:clamp(1.2rem,3vw,2.2rem);
+    
+}
+.projects h4{
+    font-size:clamp(1rem,3vw,2rem);
+}
+.projects p,.projects ul,.projects li{
+    font-size:clamp(1rem,2vw,1.4rem);
+    line-height:1.7;
+}
+.arrow-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+
+    padding:14px 28px;
+    margin-top:40px;
+
+    background-color:black;
+    color:white;
+
+    text-decoration:none;
+    font-size:clamp(1rem,2vw,1.3rem);
+    font-weight:600;
+
+    border-radius:50px;
+    transition:0.3s ease;
+
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+
+.arrow-btn:hover{
+    background-color:#333;
+    transform:translateY(-3px);
+}
+
+.arrow{
+    font-size:1.3em;
+    transition:transform 0.3s ease;
+}
+
+.arrow-btn:hover .arrow{
+    transform:translateX(6px);
+}
+.valign
+{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:30px;
+    align-items: center;
+    justify-content: center;
+}
